@@ -1,0 +1,37 @@
+{
+  "name": "advent-of-code-2025",
+  "version": "1.0.0",
+  "description": "advent of code 2025",
+  "homepage": "https://github.com/Emilly666/Advent-of-Code-2025#readme",
+  "bugs": {
+    "url": "https://github.com/Emilly666/Advent-of-Code-2025/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emilly666/Advent-of-Code-2025.git"
+  },
+  "license": "ISC",
+  "author": "Emilly666",
+  "type": "module",
+  "main": "./src/web/index.ts",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint . --ext js,jsx,ts,tsx --fix"
+    
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/express": "^5.0.6",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "nodemon": "^3.1.11",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.48.0",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
