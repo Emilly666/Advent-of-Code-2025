@@ -33,7 +33,7 @@ def part2(file: str):
   current_range = ranges_list.pop(0)
   while len(ranges_list) > 0:
     next_range = ranges_list.pop(0)
-    if next_range[0] <= current_range[1]:#combine
+    if next_range[0] <= current_range[1]:
       current_range = (current_range[0], max([current_range[1], next_range[1]]))
     else:
       output_ranges.append(current_range)
